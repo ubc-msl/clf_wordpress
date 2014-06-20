@@ -1,0 +1,150 @@
+#theme-options-shell{
+	margin: 20px 0;
+	clear: both;
+}
+#theme-options-shell .form-table{
+	margin: 0 0 20px;
+}
+.form-table tr{
+	border-top: 1px solid #E3E3E3;
+	
+}
+.js .ui-tabs-panel{
+	width:85%;
+	float: left;
+	border: 1px solid #CCC;
+	background: #FFF;
+	overflow: hidden;
+	min-height: 400px;
+	padding: 0 1%;
+}
+.js .ui-tabs-panel h3{
+	margin: 10px 0 5px;
+	padding: 0 10px;
+	
+}
+.js .ui-tabs-panel table h3{
+	margin: 10px 0 5px;
+	border-bottom:1px solid #E3E3E3;
+}
+.js .ui-tabs-panel p{
+	padding:0 0 10px;
+}
+.js .ui-tabs-panel ul{
+	margin-left: 1.5em;
+}	
+.js ul.ui-tabs-nav {
+	clear: both;
+	float: left;
+	width: 12.5%;
+	border-left:1px solid #CCC;
+	border-top:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	padding: 10px 0;
+	background: #F1F1F1;
+}
+.js .ui-tabs-nav li{
+	/* border-bottom: 1px solid #E3E3E3; */
+	list-style: none;
+	margin: 0;
+}
+.js .ui-tabs-nav li.ui-state-active{
+	position: relative;
+	z-index: 100;
+	margin:0 -1px 0 -5px;
+	border-width: 1px 0 1px 1px;
+	border-color: #CCCCCC;
+	border-style: solid;
+}
+.js .ui-tabs-nav li.ui-state-active a{
+	color: #000;
+	background: #FFF;
+	padding: 6px 10px 6px 14px;
+}
+.js .ui-tabs-nav li a{
+	color:#21759B;
+	text-decoration: none;
+	display: block;
+	padding: 7px 10px;
+	background: #F1F1F1;
+}
+.js .ui-tabs-nav li a:hover{
+	color:#333;
+}
+.align-left{
+	float: left;
+}
+.align-left p{
+	margin: 0 10px;
+}
+.ubc-collab-ajax-loading{
+	vertical-align: middle;
+	margin-top: -1px;
+}
+#ubc-collab-theme-options-form{
+	margin-top: 10px;
+}
+#ubc-collab-theme-options-form .submit{
+	display: block;
+	clear: both;
+	float: left;
+}
+
+#ubc-collab-theme-options-form .ubc-collab-ajax-save-options,
+#ubc-collab-theme-options-form .save-changes{
+	color: #AAAAAA;
+    float: left;
+    line-height: 24px;
+    margin: 5px 10px;
+    padding: 1.5em 0;
+}
+#ubc-collab-theme-options-form .ubc-collab-ajax-save-options{
+	margin-top: 9px;
+}
+.full-width{
+	width: 100%;
+	max-width: 500px;
+}
+.explanation h3 {
+	margin-top: 0px !important;	
+}
+
+.explanation div {
+	background: #D7E0E7; 
+	display: none;
+	margin-bottom: 10px;
+	padding: 20px 10px;
+}
+
+.explanation-help {
+	float: right;	
+}
+.group{
+	margin-top:1.33em;
+	position: relative;
+	overflow: hidden;
+}
+.group h4{
+	margin:0;
+	clear: both;
+}
+.ubc-collab-textarea,
+.ubc-collab-text-input{
+	width: 95%;
+}
+
+.half .ubc-collab-text-input{
+	width: 90%;
+}
+.half .inline,
+.inline{
+	width: 30%;
+}
+
+/* colour picker */
+.wp-picker-container{
+	position: absolute;
+	background: #FFF;
+	margin-bottom: 0;
+	z-index: 1000;
+}

@@ -1,0 +1,183 @@
+/*********************************************************************
+ * CLF Theme Options Style
+ * 
+ * Created by Michael Kam
+ * Created on Nov. 20, 2012
+ *********************************************************************/
+.ui-tabs-panel h3 {
+	color: #002145;
+	padding-bottom: 10px;	
+}
+.half {
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+.left {
+	margin-top: 7px;
+	float: left;
+}
+.transparent {
+	opacity:0.3;
+	filter:alpha(opacity=30);	
+}
+#clf,
+#clf td { 
+	font-size: 13px !important;	
+}
+
+#clf td,
+#clf th {
+	padding-bottom: 15px;	
+}
+
+#clf label {
+	display: inline-block;
+	margin-top: 5px;
+	min-width: 104px;
+}
+#faculty-ans label,
+#faculty-address-ans label{
+	min-width: auto;
+	margin-right: 10px;
+}
+#clf-default-colour{
+	margin-top: 9px;
+}
+#clf-theme {
+	min-height: 140px;	
+}
+
+#clf-theme .layout {
+	display: block;
+	float: left;
+	height: 120px;
+	width: 130px;
+}
+
+.theme-sample {
+	background-position: 25px -115px !important;
+	border: 1px solid #ccc;
+	display: block;
+	height: 95px;
+	margin: 5px 0px;
+	width: 95px; 	
+}
+
+#wb {
+	background: #002145 url('//cdn.ubc.ca/clf/7.0.1/img/ubc7-clf-sprite-white.png');	
+}
+
+#bw {
+	background: #ffffff url('//cdn.ubc.ca/clf/7.0.1/img/ubc7-clf-sprite-blue.png');	
+}
+
+#gw {
+	background: #ffffff url('//cdn.ubc.ca/clf/7.0.1/img/ubc7-clf-sprite-grey.png');	
+}
+
+#wg {
+	background: #2F5D7C url('//cdn.ubc.ca/clf/7.0.1/img/ubc7-clf-sprite-white.png');	
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (   min--moz-device-pixel-ratio: 1.5),
+only screen and (     -o-min-device-pixel-ratio: 3/2),
+only screen and (        min-device-pixel-ratio: 1.5),
+only screen and (                min-resolution: 144dpi),
+only screen and (                min-resolution: 1.5dppx) {
+	#wb {
+		background: #002145 url('//cdn.ubc.ca/clf/7.0.1/img/ubc7-clf-sprite-white-2x.png');
+		background-size: 1500px;	
+	}
+	
+	#bw {
+		background: #ffffff url('//cdn.ubc.ca/clf/7.0.1/img/ubc7-clf-sprite-blue-2x.png');
+		background-size: 1500px;	
+	}
+	
+	#gw {
+		background: #ffffff url('//cdn.ubc.ca/clf/7.0.1/img/ubc7-clf-sprite-grey-2x.png');
+		background-size: 1500px;	
+	}
+	
+	#wg {
+		background: #2F5D7C url('//cdn.ubc.ca/clf/7.0.1/img/ubc7-clf-sprite-white-2x.png');
+		background-size: 1500px;	
+	}
+} 
+
+/* Faculty/Unit Name Area */
+#clf-unit-faculty {
+	width: 20em;	
+}
+#ubc-blue,
+#ubc-grey {	
+	color: white;
+	height: 25px;
+	margin-right: 10px;
+	padding-top: 5px;
+	width: 90px;
+}
+
+#ubc-blue { 
+	background: #002145;
+}
+
+#ubc-grey {
+	background: #2F5D7C;
+}
+
+#faculty-ans {
+	display: inline-block;
+}
+
+#faculty-name,
+#faculty-address {
+	display: none;
+}
+
+#clf-unit-unit-website {
+	font-size: 150%;
+}
+
+#clf-unit-colour-box {
+	clear: both;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+#clf-unit-colour-box label {
+	display: block;
+	margin-left: 20px;
+	text-indent: -20px;
+}
+#clf-unit-colour {
+	font-size: 110%;
+	height: 30px;
+	min-width: 60px;
+	margin-left: 3px;
+	max-width: 102px;
+	text-align: center;
+}
+#clf-unit-colour-box .wp-picker-container{
+	margin: 5px 7px;
+}
+.wp-picker-holder{
+	
+}
+
+
+.half input['text'],
+#clf-unit-name,
+#clf-unit-address1,
+#clf-unit-address2 {
+	width: 20em;
+}
+
+
+
+#unit-social input[type=text] {
+	margin-top: 5px;	
+}
