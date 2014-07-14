@@ -318,3 +318,11 @@ body.archive h1.archive-title {
 body.archive img.medium {
 	border: 1px solid #d7e0e7; padding: 5px;
 }
+
+/* -------------------------------------------
+ * MSL CSS
+ * ------------------------------------------- */
+
+.personnel td{
+  padding:10px;
+}
